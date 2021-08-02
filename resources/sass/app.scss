@@ -1,0 +1,107 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+
+$bc:green;
+
+body>div{
+	display:flex;
+}
+ul {
+    list-style: none;
+}
+html{
+	width:100%;
+	background-color: #ddd;
+}
+.leftNavigation{
+	width: 250px;
+    text-align: left;
+    background-color:$bc;
+	color:white;
+	padding:10px;
+	border-radius: 5px 0 0 5px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 4px gray;
+}
+main{
+	flex: 1;
+    background-color: #eee;
+    text-align: center;
+    background-color: #fff;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 2px 2px 4px gray;
+
+
+}
+#account{
+	margin:0px 5px 50px;
+
+	height:60px;
+}
+#account table{
+	margin:0px;
+	width:100%;
+	height:100%;
+	text-align: center;
+	border-top:1px solid white;
+	border-left:1px solid white;
+
+}
+#account th,#account td{
+	font-weight: normal;
+	border-right:1px solid white;
+	border-bottom:1px solid white;
+	font-size: 12px;
+	color:white;
+}
+#account button{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	color: #4b4b4b;
+}
+.leftNavigation span{
+	position: relative;
+	padding-right: 10px;
+	background-color:$bc;
+	z-index: 2;
+}
+ .side_label{
+	position: relative;
+}
+ .side_label::after {
+    position: absolute;
+    top: 10px;
+    content: "";
+    display: block;
+    border-top: solid 1px #d8d8d8;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+}
+.leftNavigation a:link, .leftNavigation a:visited {
+    text-decoration: none;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+header h4 {
+	white-space: nowrap;
+    text-align: center;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 200;
+}
+header h4 a {
+    padding: 5px 5px 25px;
+    display: block;
+    display:flex; /* ←これを指定 */
+align-items: center;
+}
