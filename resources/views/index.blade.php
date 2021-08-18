@@ -6,7 +6,7 @@
   <title>{{ config('app.name') }}</title>
 
   <!-- Scripts -->
-  <script src="{{ url(mix('js/app.js')) }}" defer></script>
+  <script src="{{ url(mix('/js/app.js')) }}" defer></script>
 
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Roboto:400">
