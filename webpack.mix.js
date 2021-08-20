@@ -11,6 +11,6 @@ const mix = require('laravel-mix');
  |
  */
 mix.browserSync('vuesplash.test',{open: false})
-  .js('resources/js/app.js', 'public/js').vue()
-  .sass('resources/sass/app.scss', 'public/css')
+  .js('resources/js/app.js', 'js').vue()
+  .sass('resources/sass/app.scss', 'css')
   .version()
