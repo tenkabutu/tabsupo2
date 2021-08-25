@@ -6873,7 +6873,6 @@ var render = function() {
             }
           },
           [
-            _vm._v("\n    @csrf\n      "),
             _vm.registerErrors
               ? _c("div", { staticClass: "errors" }, [
                   _vm.registerErrors.name

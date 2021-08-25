@@ -33,7 +33,7 @@
     </div>
     <div class="panel" v-show="tab === 2">
       <form class="form" @submit.prevent="register">
-      @csrf
+
         <div v-if="registerErrors" class="errors">
           <ul v-if="registerErrors.name">
             <li v-for="msg in registerErrors.name" :key="msg">{{ msg }}</li>
