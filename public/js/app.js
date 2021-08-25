@@ -2530,6 +2530,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -6872,6 +6873,7 @@ var render = function() {
             }
           },
           [
+            _vm._v("\n    @csrf\n      "),
             _vm.registerErrors
               ? _c("div", { staticClass: "errors" }, [
                   _vm.registerErrors.name
