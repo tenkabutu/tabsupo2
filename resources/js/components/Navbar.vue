@@ -2,7 +2,7 @@
 	<nav>
 		<h4>
 			<RouterLink class="navbar__brand" to="/">
-			<img width="50" alt="" src="img/tabsapo.png">タブサポ君</RouterLink>
+			<img width="50" alt="" src="img/tabsapo.png">タブサポ君2</RouterLink>
 		</h4>
 		<div class="navbar__menu">
 			<div v-if="isLogin" class="navbar__item">
