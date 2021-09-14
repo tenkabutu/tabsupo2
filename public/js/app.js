@@ -6336,7 +6336,7 @@ var render = function() {
       [
         _c("RouterLink", { staticClass: "navbar__brand", attrs: { to: "/" } }, [
           _c("img", {
-            attrs: { width: "50", alt: "", src: "img/tabsapo.png" }
+            attrs: { width: "50", alt: "", src: "img/tabsapo.png1" }
           }),
           _vm._v("タブサポ君2")
         ])
